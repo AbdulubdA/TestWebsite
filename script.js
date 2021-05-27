@@ -11,7 +11,9 @@ if(questions[i].checked == true){
     currentQuestion = questions[i].value;
 
     if(currentQuestion == "YFC"){
-        currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "\n" + "Because I heard good things from an F&C alumni" + "\n" + "Because I want to ascend";
+        currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "\r\n" + 
+        "Because I heard good things from an F&C alumni" + "\r\n" +
+        "Because I want to ascend";
     }
     
     else if(currentQuestion == "YAB"){
