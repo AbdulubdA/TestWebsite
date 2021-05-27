@@ -8,7 +8,7 @@ for(var i = 0; i < questions.length; i++){
 
 if(questions[i].checked == true){
 
-    currentQuestion = questions[i];
+    currentQuestion = questions[i].value;
     document.getElementById("output").innerHTML = currentQuestion;
 }
 }
@@ -39,6 +39,7 @@ else if(currentQuestion == "TYW"){
     </ul>;
     }
 
+                                     
     
 }
 
