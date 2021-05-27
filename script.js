@@ -11,7 +11,7 @@ if(questions[i].checked == true){
     currentQuestion = questions[i].value;
 
     if(currentQuestion == "YFC"){
-        currentQuestion = <li>Because I like doing hard things and coding is allegedly hard</li>;
+        currentQuestion = <form><ul><li>Because I like doing hard things and coding is allegedly hard</li></ul></form>;
     }
     
     else if(currentQuestion == "YAB"){
