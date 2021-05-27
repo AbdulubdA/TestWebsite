@@ -11,7 +11,7 @@ p1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     background: rgb(3, 212, 3);
-    color: white;
+    color: rgb(240, 230, 97);
     
 }
 
@@ -23,7 +23,7 @@ p2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     background: white;
-    color: rgb(3, 212, 3);
+    color: rgb(240, 230, 97);
 }
 
 p3{
@@ -33,6 +33,6 @@ p3{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: rgb(3, 212, 3);
+    background: rgb(240, 230, 97);
     color: white;
 }
