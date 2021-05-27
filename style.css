@@ -9,7 +9,6 @@ body{
 p1{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -20,7 +19,7 @@ p1{
 p2{
     display: flex;
     justify-content: center;
-    align-items: center;
+
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -30,7 +29,6 @@ p2{
 p3{
     display: flex;
     justify-content: center;
-    align-items: center;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
