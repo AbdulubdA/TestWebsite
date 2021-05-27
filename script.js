@@ -43,7 +43,7 @@ else if(currentQuestion === "TYW"){
 
 function printOutput(){
 
-    document.getElementById("output").innerText = outputToBox;
+    document.getElementById("output").textContent = outputToBox;
 
 }
 
