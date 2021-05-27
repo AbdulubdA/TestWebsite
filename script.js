@@ -12,8 +12,7 @@ if(questions[i].checked == true){
 
     if(currentQuestion == "YFC"){
         currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "\r\n" + 
-        "Because I heard good things from an F&C alumni" + "\r\n" +
-        "Because I want to ascend";
+        "Because I heard good things from an F&C alumni" + "\r\n" + "Because I want to ascend";
     }
     
     else if(currentQuestion == "YAB"){
