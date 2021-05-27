@@ -3,6 +3,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     background: rgb(3, 212, 3);
+    color: ivory;
 }
 
 p1{
@@ -12,8 +13,7 @@ p1{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: rgb(3, 212, 3);
-    color: rgb(240, 230, 97);
+    color: ivory;
     
 }
 
@@ -24,8 +24,7 @@ p2{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: white;
-    color: rgb(240, 230, 97);
+    color: ivory;
 }
 
 p3{
@@ -35,6 +34,5 @@ p3{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: rgb(240, 230, 97);
-    color: white;
+    color: ivory;
 }
