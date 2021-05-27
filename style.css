@@ -1,0 +1,58 @@
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background: rgb(13, 172, 13);
+    color: ivory;
+}
+
+p1{
+    display: flex;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: ivory;
+
+    border: solid ivory;
+    
+}
+
+p2{
+    display: flex;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: ivory;
+
+    border: solid ivory;
+}
+
+p3{
+    display: flex;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: ivory;
+
+    border: solid ivory;
+}
+
+.output{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 500px;
+    height: 300px;
+    border: solid ivory;
+
+    background: ivory;
+    color: rgb(13, 172, 13);
+
+    font-size: 90px;
+
+}
