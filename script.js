@@ -6,11 +6,12 @@ var questions = document.getElementsByName("qp");
 var currentQuestion = questions[0].value;
 for(var i = 0; i < questions.length; i++){
 
-if(questions[i].checked === true){
+if(questions[i].checked == true){
 
     currentQuestion = questions[i].value;
 }
 }
+
 if(currentQuestion === "YFC"){
     outputToBox = 
     <ul>
@@ -38,6 +39,8 @@ else if(currentQuestion === "TYW"){
       <li><a href="https://github.com/AbdulubdA/TestWebsite"> Abdul's GitHub repository </a> </li>
     </ul>;
     }
+
+    printOutput();
 
 }
 
