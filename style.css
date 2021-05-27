@@ -1,3 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 p1{
     display: flex;
     justify-content: center;
@@ -5,8 +13,8 @@ p1{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: rgb(1, 179, 1);
-    color: black;
+    background: rgb(3, 212, 3);
+    color: white;
     
 }
 
@@ -17,8 +25,8 @@ p2{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    background: rgb(1, 179, 1);
-    color: black;
+    background: white;
+    color: rgb(3, 212, 3);
 }
 
 p3{
@@ -29,5 +37,5 @@ p3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     background: rgb(1, 179, 1);
-    color: black;
+    color: white;
 }
