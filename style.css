@@ -1,6 +1,12 @@
 .p1{
+    display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background: rgb(1, 179, 1);
 }
 
 .p2{
