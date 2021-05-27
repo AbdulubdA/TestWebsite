@@ -11,11 +11,15 @@ if(questions[i].checked == true){
     currentQuestion = questions[i].value;
 
     if(currentQuestion == "YFC"){
-        currentQuestion = "Because I like\ doing hard things and coding is allegedly hard" + "\n" + "blah";
+        currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "\n" + 
+        "Because I heard good things from an F&C alumni" + "\n" +
+        "Because I want to ascend";
     }
     
     else if(currentQuestion == "YAB"){
-        currentQuestion = "He's meticulous and he knows French (kinda)";
+        currentQuestion = "He's meticulous and he knows French (kinda)" + "\n" + 
+        "Years competing (and winning) in sports forged commitment to excellence" + "\n" +
+        "He wants to ascend";
     }
     
     else if(currentQuestion == "TYW"){
