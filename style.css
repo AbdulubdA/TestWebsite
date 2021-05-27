@@ -6,40 +6,6 @@ body{
     color: ivory;
 }
 
-p1{
-    display: flex;
-    align-items: center;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: ivory;
-
-    border: solid ivory;
-    
-}
-
-p2{
-    display: flex;
-    align-items: center;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: ivory;
-
-    border: solid ivory;
-}
-
-p3{
-    display: flex;
-    align-items: center;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: ivory;
-
-    border: solid ivory;
-}
-
 .output{
 
     display: flex;
