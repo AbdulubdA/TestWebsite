@@ -2,7 +2,7 @@ body{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    background: rgb(3, 212, 3);
+    background: rgb(13, 172, 13);
     color: ivory;
 }
 
@@ -38,4 +38,16 @@ p3{
     color: ivory;
 
     border: solid ivory;
+}
+
+.output{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1000px;
+    height: 1000px;
+    border: solid ivory;
+
 }
