@@ -22,11 +22,6 @@ if(questions[i].checked == true){
         "He wants to ascend";
     }
     
-    else if(currentQuestion == "TYW"){
-        currentQuestion =  "If you have as much fun viewing these as I did completing them then we're perfect for each other" + "<br>" +
-        
-        }
-        
     document.getElementById("output").innerHTML = currentQuestion;
 }
 }
