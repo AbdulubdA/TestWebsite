@@ -33,7 +33,7 @@ background-color: firebrick;
 
     background-color: white;
     float: left;
-    border: none;
+    border: 1px solid rgb(13, 172, 13);
     outline: none;
     cursor: pointer;
     padding: none;
@@ -52,7 +52,7 @@ background-color: rgb(13, 172, 13);
 /*current tab design*/
 .tab button.active{
 
-background-color: rgb(13, 172, 13);
+background-color: rgb(13, 172, 13)sl;
 
 }
 
