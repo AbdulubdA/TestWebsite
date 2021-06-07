@@ -24,7 +24,7 @@ body{
 .tab{
 
 overflow: hidden;
-border: 2px solid black;
+border: 2px solid ivory;
 background-color: firebrick;
 
 }
@@ -45,14 +45,14 @@ background-color: firebrick;
 
 .tab button:hover{
 
-background-color: gold;
+background-color: rgb(13, 172, 13);
 
 }
 
 /*current tab design*/
 .tab button.active{
 
-background-color: gold;
+background-color: rgb(13, 172, 13);
 
 }
 
