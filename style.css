@@ -39,6 +39,8 @@ background-color: firebrick;
     padding: none;
     transition: 0.5s;
 
+    width: 10px;
+
 }
 
 .tab button:hover{
