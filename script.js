@@ -35,7 +35,7 @@ if(questions[i].checked == true){
 
 }
 
-function openTab(tabNo){
+function openTab(evt, tabNo){
 
 var tabcontent, tablinks;
 
@@ -49,7 +49,7 @@ for (var i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
 }
 
-document.getElementById(tabNo).style.display = "block"; /*shows current tab and adds an active class attribute to it to let computer know which one s currently open"
+document.getElementById(tabNo).style.display = "block"; /*shows current tab and adds an active class attribute to it to let computer know which one s currently open"*/
 evt.currentTarget.className += " active";
 }
 
