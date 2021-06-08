@@ -59,7 +59,7 @@ background-color: rgb(13, 172, 13)sl;
 .tabcontent{
 
 display: none;
-padding: none;
+padding: 10px 10px;
 border: 1px solid white;
 
 }
