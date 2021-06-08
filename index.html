@@ -12,17 +12,35 @@
 
 <div class="tab">
 
-<button class="tablinks" onclick="openTab(event,'TAB1')"> TAB1 </button> <!-- need the event I think-->
-<button class="tablinks" onclick="openTab(event,'TAB2')"> TAB2 </button>
-<button class="tablinks" onclick="openTab(event,'TAB3')"> TAB3 </button>
+<button class="tablinks" onclick="openTab(event,'TAB1')"> The big q's </button> <!-- need the event I think-->
+<button class="tablinks" onclick="openTab(event,'TAB2')"> CV page </button>
+<button class="tablinks" onclick="openTab(event,'TAB3')"> What's the time </button>
 
 </div>
   
 <!-- when user clicks on button, it opens tab with matching name-->
 <div id="TAB1" class="tabcontent"> 
 
-<h3> TAB1 HEADER</h3>
-<P> Some words in tab1</P>
+<h3> The big q's</h3>
+<P> It's time to answer the big questions
+
+  <div class="questions posed" id="questions posed">
+    <form>
+
+      <input type="radio" id="YFC" name="qp" value="YFC"> Why is Founders & Coders right for Abdul? <br>
+      <input type="radio" id="YAB" name="qp" value="YAB"> Why is Abdul right for Founders & Coders? <br>
+      <input type="radio" id="TYW" name="qp" value="TYW"> "But how can we just take your word for it?"<br>
+
+      <button type="button" value="CKTC" onclick="produceAnswer()"> Curiosity won't kill you, you're not a cat </button>
+
+    </form>
+
+  </div>
+
+    <div class="output" id="output"></div>
+
+
+</P>
 
 </div>
 
@@ -43,20 +61,7 @@
 
 
 
-  <div class="questions posed" id="questions posed">
-    <form>
-
-      <input type="radio" id="YFC" name="qp" value="YFC"> Why is Founders & Coders right for Abdul? <br>
-      <input type="radio" id="YAB" name="qp" value="YAB"> Why is Abdul right for Founders & Coders? <br>
-      <input type="radio" id="TYW" name="qp" value="TYW"> "But how can we just take your word for it?"<br>
-
-      <button type="button" value="CKTC" onclick="produceAnswer()"> Curiosity won't kill you, you're not a cat </button>
-
-    </form>
-
-  </div>
-
-    <div class="output" id="output"></div>
+ 
 
     <div></div>
 
