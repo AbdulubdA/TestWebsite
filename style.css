@@ -69,10 +69,9 @@ border: 1px solid white;
 .slideshow-container{
 
 max-width: 1000px;
-position: relative;
+position: center;
 margin: auto;
-align-items: center;
-    justify-content: center;
+
 
 }
 
