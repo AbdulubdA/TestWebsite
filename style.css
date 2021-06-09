@@ -109,6 +109,14 @@ border-radius: 3px 0 0 3px;
 
 }
 
+/*prev button goes on the left*/
+.next{
+
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    
+    }
+
 /*while hovering over next and prev buttons, background of button goes black*/
 .prev:hover, .next:hover{
 
