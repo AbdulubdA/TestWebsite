@@ -76,11 +76,11 @@ if (n < 1){slideIndex = slides.length}
 for(i = 0; i < slides.length; i++){
 slides[i].style.display = "none"; /* makes every slide inactive at first*/
 }
-for(i = 0; i < dots.length; i++){
+for(i = 0; i <= dots.length; i++){
     dots[i].className = dots[i].className.replace(" active", "");
 }
 
 slides[slideIndex-1].style.display = "block";
-dots[slideIndex+1].className += "active";
+dots[slideIndex-1].className += "active";
 
 }
