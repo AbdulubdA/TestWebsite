@@ -141,9 +141,10 @@ text-align: center;
 .numbertext{
 
 color: green;
-font-size: 12px;
+font-size: 30px;
 padding: 8px 12px;
 position: absolute;
+text-align: center;
 top: 0;
 
 }
