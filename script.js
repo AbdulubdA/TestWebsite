@@ -70,13 +70,13 @@ var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
-if (n > slides.length){slideIndex = 1} /* makes clicking next arrow cyclical*/
+if (n > slides.length){slideIndex = (n % slides.length)} /* makes clicking next arrow cyclical*/
 if (n < 1){slideIndex = slides.length}
 
 for(i = 0; i <= slides.length; i++){
 slides[i].style.display = "none"; /* makes every slide inactive at first*/
 }
-for(i = 0; i <= dots.length; i++){
+for(i = 0; i < dots.length; i++){
     dots[i].className = dots[i].className.replace(" active", "");
 }
 
