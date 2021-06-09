@@ -71,6 +71,8 @@ border: 1px solid white;
 max-width: 1000px;
 position: relative;
 margin: auto;
+align-items: center;
+    justify-content: center;
 
 }
 
@@ -78,8 +80,7 @@ margin: auto;
 .mySlides{
 
     display: none;
-    align-items: center;
-    justify-content: center;
+    
 
 }
 
