@@ -128,7 +128,7 @@ background-color: black;
 .text{
 
 color: white;
-font-size: 15px;
+font-size: 30px;
 padding: 8px 12px;
 position: absolute;
 bottom: 8px;
@@ -140,7 +140,7 @@ text-align: center;
 /* number text (1/3)*/
 .numbertext{
 
-color: white;
+color: green;
 font-size: 12px;
 padding: 8px 12px;
 position: absolute;
