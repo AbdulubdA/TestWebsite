@@ -72,15 +72,13 @@ max-width: 1000px;
 position: relative;
 margin: auto;
 
-
 }
 
 /*hides images by default*/
 .mySlides{
 
     display: none;
-    left: 500px;
-    
+    right: 50%;
 }
 
 /* next and previous buttons*/
@@ -132,7 +130,7 @@ font-size: 30px;
 padding: 8px 12px;
 position: absolute;
 bottom: 0;
-left: 50%;
+right: 50%;
 width: 20%;
 text-align: center;
 
