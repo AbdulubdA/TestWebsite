@@ -6,6 +6,11 @@ body{
     color: ivory;
 }
 
+.dark-mode{
+    background-color: black;
+    color: white;
+    }
+
 .output{
 
     display: flex;
@@ -189,3 +194,4 @@ background-color: black;
     from {opacity: .4}
     to {opacity: 1}
 }
+
