@@ -79,7 +79,7 @@ border: solid white;
 .mySlides{
 
     display: none;
-    right: 50%;
+
 }
 
 /* next and previous buttons*/
@@ -131,7 +131,7 @@ font-size: 30px;
 padding: 8px 12px;
 position: absolute;
 bottom: 0;
-right: 50%;
+right: 30%;
 width: 20%;
 text-align: center;
 
