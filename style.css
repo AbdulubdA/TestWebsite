@@ -79,6 +79,7 @@ margin: auto;
 .mySlides{
 
     display: none;
+    left: 50%;
     
 }
 
