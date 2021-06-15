@@ -91,3 +91,101 @@ var element = document.body;
 element.classList.toggle("dark-mode");
 
 }
+
+var offset = 0;
+
+setInterval(printClock, 1000);
+
+
+function printSelection(){
+var firstVariable = document.getElementsByName("timezone");
+var secondVariable = "bst";
+for(let i = 0; i < firstVariable.length; i++){
+if(firstVariable[i].checked == true){
+
+secondVariable = firstVariable[i].value;
+
+}
+}
+
+if(secondVariable === "est"){offset = -5;}
+else if(secondVariable === "cst"){offset = -6;}
+else if(secondVariable === "mst"){offset = -7;}
+else if(secondVariable === "pst"){offset = -8;}
+else if(secondVariable === "ast"){offset = -4;}
+else if(secondVariable === "hast"){offset = -11;}
+else if(secondVariable === "bst"){offset = 0;}
+else if(secondVariable === "abz"){offset = "GAMETIME";}
+
+}
+
+function printClock(){
+
+const day = new Date();
+const secondsRatio = day.getSeconds()/60;
+const minutesRatio = (day.getMinutes() + secondsRatio) / 60
+const hoursRatio = (day.getHours() + minutesRatio + offset) / 12;
+
+const hourHand = document.querySelector('[data-hour-hand]');
+const minuteHand = document.querySelector('[data-minute-hand]');
+const secondHand = document.querySelector('[data-second-hand]');
+
+setRotation(secondHand, secondsRatio)
+setRotation(minuteHand, minutesRatio)
+setRotation(hourHand, hoursRatio)
+
+}
+
+function setRotation(element, rotationRatio){
+
+    element.style.setProperty(`--rotation`, rotationRatio * 360);
+
+ /* digital clock stuff below*/
+
+        var dateVariable = new Date();
+        var hours = dateVariable.getHours() + offset;
+        var minutes = dateVariable.getMinutes();
+        var seconds = dateVariable.getSeconds();
+        var session = "AM";
+        
+        if(hours >= 12){session = "PM";}
+        else{session = "AM";}
+        
+        if(hours < 10){hours = "0" + hours;}
+        if(minutes < 10){minutes = "0" + minutes;}
+        if(seconds < 10){seconds = "0" + seconds;}
+
+        var currentTime = hours + ":" + minutes + ":" + seconds + " " + session;
+
+        if(offset === "GAMETIME"){currentTime = offset;}
+        
+        setTimeout(printClock, 1000);
+        
+        document.getElementById("digital clock").innerHTML = currentTime;
+        
+        
+}
+
+printClock();
+
+function setDigital(){
+    
+    var digital = document.getElementById("digital clock");
+    var analogue = document.getElementById("clock");
+
+    analogue.style.display = "none";
+    digital.style.display = "flex";
+
+}
+
+function setAnalogue(){
+
+    var digital = document.getElementById("digital clock");
+    var analogue = document.getElementById("clock");
+
+    analogue.style.display = "flex";
+    digital.style.display = "none";
+
+}
+
+setAnalogue()
