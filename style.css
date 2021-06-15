@@ -198,8 +198,7 @@ background-color: black;
 /* clock code starts here*/
 .clock{
 
-    position: relative;
-    
+    position: absolute;
     
     width: 200px;
     height: 200px;
