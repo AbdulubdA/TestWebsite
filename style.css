@@ -314,7 +314,7 @@ background-color: black;
     
         width: 500px;
         height: 200px; /* rectangle around clock*/
-        border: 10px solid ivory ;
+        border: 5px solid ivory ;
         margin-left: 20px;
     
         font-size: 90px;
@@ -327,6 +327,6 @@ background-color: black;
         justify-content: center;
         align-items: center;
     
-        border: 5px solid ivory;
+        border: 2px solid ivory;
     
     }
