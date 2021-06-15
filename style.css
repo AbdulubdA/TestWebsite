@@ -227,7 +227,6 @@ background-color: black;
     
     }
 
-
     .clock .number{ /* uses "number" word in the sub class in html file*/
 
         text-align: center;
@@ -315,8 +314,7 @@ background-color: black;
     
         width: 500px;
         height: 200px; /* rectangle around clock*/
-        background-color: rgba(220, 108, 235, 0.425);
-        border: 10px solid rgb(13, 172, 92) ;
+        border: 10px solid ivory ;
         margin-left: 20px;
     
         font-size: 90px;
