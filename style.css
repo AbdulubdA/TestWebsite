@@ -200,12 +200,16 @@ background-color: black;
 
     position: relative;
     
+    
     width: 200px;
     height: 200px;
     
     background: blanchedalmond;
     border-radius: 50%;
     border: 10px solid rgb(20, 199, 94);
+
+    top: 0;
+    right: 0;
     
     }
     
