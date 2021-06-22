@@ -328,8 +328,8 @@ background-color: black;
         justify-content: center;
         align-items: center;
     
-        width: 500px;
-        height: 200px; /* rectangle around clock*/
+        /* width: 500px;
+        height: 200px; rectangle around clock*/
         border: 5px solid ivory ;
         margin-left: 20px;
     
