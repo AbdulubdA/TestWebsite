@@ -336,6 +336,8 @@ background-color: black;
     .darkToggle button{
 
 background: black;
+padding: 10px 20px;
+border-radius: 8px;
 color: rgb(13, 172, 13);
 font-size: 15px;
 
