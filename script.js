@@ -115,7 +115,7 @@ else if(secondVariable === "pst"){offset = -8;}
 else if(secondVariable === "ast"){offset = -4;}
 else if(secondVariable === "hast"){offset = -11;}
 else if(secondVariable === "bst"){offset = 0;}
-else if(secondVariable === "abz"){offset = "GAMETIME";}
+else if(secondVariable === "abz"){offset = "PRIMETIME";}
 
 }
 
