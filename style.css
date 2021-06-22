@@ -211,6 +211,8 @@ background-color: black;
     
     border-radius: 50%;
     border: 10px solid rgb(20, 199, 94);
+
+    background: blanchedalmond;
     
     }
     
@@ -239,6 +241,8 @@ background-color: black;
         position: absolute;
     width: 100%; 
     height: 100%;
+
+    color: black;
     
     --rotation: 0; /* two dashes make rotation a variable */
     transform: rotate(var(--rotation)); /* always surround variables name with a var() function in CSS */
