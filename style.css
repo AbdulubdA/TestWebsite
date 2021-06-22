@@ -15,6 +15,7 @@ body{
 .dark-mode .clock{
 
 background-color: black;
+border: rgb(13, 172, 13);
 
     }
 
