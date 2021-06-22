@@ -9,6 +9,13 @@ body{
 .dark-mode{
     background-color: black;
     color: green;
+
+    }
+
+.dark-mode .clock{
+
+background-color: black;
+
     }
 
 .output{
