@@ -25,9 +25,9 @@ if(questions[i].checked == true){
     else if(currentQuestion == "TYW"){
         currentQuestion =  "If you have as much fun viewing these as I did completing them then we're perfect for each other" ;
         }
-        /*"href=https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0> Abdul's excellent freeCodeCamp adventure" 
-        "href=https://www.codewars.com/users/09ahmeaa> Abdul's battles in the Codewars"
-        "href=""> Abdul's GitHub repository"*/
+        <a href="https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0"> Abdul's excellent freeCodeCamp adventure" </a>
+        <a href="https://www.codewars.com/users/09ahmeaa"> Abdul's battles in the Codewars"</a>
+        <a href=""> Abdul's GitHub repository"*/</a> 
         
     document.getElementById("output").innerHTML = currentQuestion;
 }
