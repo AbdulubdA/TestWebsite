@@ -5,42 +5,317 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AMAZING WEBSITE</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
+<body>
+
+<div class="tab">
+
+<button class="tablinks" onclick="openTab(event,'TAB1')"> The big q's </button> <!-- need the event I think-->
+<button class="tablinks" onclick="openTab(event,'TAB2')"> Excellent Adventures </button>
+<button class="tablinks" onclick="openTab(event,'TAB3')"> What's the time </button>
+<button class="tablinks" onclick="openTab(event,'TAB4')"> Images that make me laugh </button>
+
+<div class="darkToggle">
+  <button onclick="toggleDark()">Splinter cell mode</button>
+  </div>
+</div>
+
+
+
+<!-- when user clicks on button, it opens tab with matching name-->
+<div id="TAB1" class="tabcontent"> 
+
+<h3> The big q's</h3>
+<P> It's time to answer the big questions
+
+  <div class="questions posed" id="questions posed">
+    <form>
+
+      <input type="radio" id="YFC" name="qp" value="YFC"> Why is Founders & Coders right for Abdul? <br>
+      <input type="radio" id="YAB" name="qp" value="YAB"> Why is Abdul right for Founders & Coders? <br>
+      <input type="radio" id="TYW" name="qp" value="TYW"> "But how can we just take your word for it?"<br>
+
+      <button type="button" value="CKTC" onclick="produceAnswer()"> Curiosity won't kill you, you're not a cat </button>
+
+    </form>
+
+  </div>
+
+    <div class="output" id="output"></div>
+
+
+</P>
+
+</div>
+
+<div id="TAB2" class="tabcontent">
+
+  <h1> The excellent adventures of Abdul Ahmed</h1>
+  <h2> Personal Statement</h2>
+    <p>Having been educated in an independent school, by the generosity of a sponsoring foundation, making the most of all available opportunities, academic and extracurricular, is second nature to me. This has driven me to conduct research abroad in France, as part of my Chemical Engineering (MEng) degree, and display flexibility by adapting to a professional working schedule and learning a new language. My time as captain of my Sixth Form football and rugby teams has made me comfortable leading and motivating groups while relating to a wide range of personalities. The commitment to constant self-improvement, which I have developed from this, has left me eager for a new challenge.
+
+    </p>
   
-    <h1>
-      Why Founders & Coders?
-    </h1>
-    
-    <body>
-      <ul>
-        <li>Because I like doing hard things and coding is allegedly hard</li>
-        <li>Because I heard good things from an F&C alumni</li>
-        <li>I want to ascend</li>
+    <h2> Qualifications and Education</h2>
+      <h3><u>Loughborough University Sep 2016 – Jun 2020 </u> 
+      </h3>
+      <p><b>MEng Chemical Engineering</b><br>
+        
+        <ul>
+        <li><b>Key modules: </b> Advanced Process Systems Engineering (73), Literature Review (70), Chemical & Biochemical processes (66), Business Systems (70), Design Project (71), Dissertation (70) </li>
       </ul>
-    </body>
-    
-    <h2>
-      Why Abdul Ahmed?
-    </h2>
-    <body>
-       <ul>
-        <li>Meticulous nature trained through varied experiences</li>
-        <li>Years competing (and winning) in sports forged commitment to excellence</li>
-        <li>He wants to ascend</li>
+      </p>
+
+      <h3><u>Christ’s Hospital School Sep 2009 – Jul 2016</u></h3>
+      <p>
+        
+        <b>A-levels </b><br>
+        <ul>
+          <li>Mathematics</li>
+            <li>Chemistry</li>
+              <li>Physics </li>
+        </ul>
+        <b>IGCSE</b><br> 
+        
+        <ul>
+          <li>5A*, 4A, 1B, including</li>
+            <li>Mathematics - A*</li> 
+            <li>English Language – B)</li>
+        </ul>
+         
+      </p>
+
+      <h2>University Projects </h2>
+      <h3><u>University Final Year Design Project
+        January 2020 - July 2020</u>
+      </h3>
+        <p>A decentralised energy generation plant powered solely by sewage and food waste, including modelling of a Pressure Swing Adsorption column, was designed as part of a five-member team.
+          
+          <ul>
+          <li><b>Technical knowledge - </b> The system was modelled and optimised while considering factors such as environmental impacts, equipment efficiency and economic feasibility of the project.</li>
+        <li><b>Teamwork - </b> Received training on task delegation to members, according to their strengths, and the importance of self-reflection on how to be a effective team member.</li>
       </ul>
-    </body>
+
+        </p>
+        
+        <h3><u>Entrepreneurship and Innovation Module
+          September 2018 – December 2018</u> 
+        </h3>
+
+        <p>A third-year module teaching the importance of intellectual property to entrepreneurial endeavours.
+        
+          <ul>
+          <li><b>Patent analysis: </b>Exercises were completed in which the claims section, of various patent applications, were analysed and examples of patent infringement were examined.</li>
+          <li><b>Patent utility: </b>The varied utility of patents and intellectual property to businesses, through limitation of competitor’s abilities in the market and legal protection, was discussed.</li>
+        
+        </ul>
+        </p>
+
+        <h2>Employment History _______________________________________</h2>
+        <h3><u>JRC Global Buffet, London
+          September 2020 - Present</u>
+          </h3>
+
+          <p>
+<b>Team Member: </b>Performed various roles as necessary including serving food to customers and washing and organising dishes in restaurant kitchen.
+
+<ul>
+<li><b>Working under pressure -</b> Had to function in high-paced restaurant environment during peak times and maintain efficient service for large numbers of customers</li>
+</ul>
+          </p>
+
+          <h3><u>Avado Fast Futures Internship, London
+            September 2020 - Present</u> 
+            </h3>
+
+
+            <p>
+<b>Digital Training Intern:  </b>Intern in competitive 12-week programme, organised by UK’s biggest employers, to develop business-focused skills in the fields of data, marketing and finance.
+
+<ul>
+<li><b>Customer focus - </b> Case studies highlighting how businesses can innovatively use marketing to more effectively reach customers, and data to better serve them, were completed.</li>
+<li><b>Finance basics - </b>The various financial statements and investment appraisal techniques were learned and terms such as customer Life-Time Value and Cost of Acquisition were defined.</li>
+            
+</ul>
+</p>
+
+            <h3><u>Laboratoire Roberval, France   
+              January 2019 - August 2019</u>               
+            </h3>
+
+            <p>
+            <b>Research assistant: </b>Conducted experimentation and drew conclusions from data to write a technical report focused on novel research into the permeability of fibre-reinforced resin composite materials.
+            
+            <ul>
+            <li><b>Adaptability - </b>Research was performed during an internship in Compiegne, France requiring the learning of a new language and adapting to a new way of life.</li>
+            <li><b>Interpersonal skills - </b>Effective work in the laboratory was dependent on building good working relationships with departmental researchers.</li>
+            <li><b>Presentation/Communication skills - </b>Frequent interim presentations and reports were given to supervisors, in French, to brief them on results obtained from experimentation.</li>
+          
+          </ul>
+          </p>
+
+          <h3><u>
+            Urban People hospitality agency, London
+            July 2017 – September 2018</u>
+          </h3>
+
+          <p>
+<b>Team member: </b>Performed various roles in Wembley Stadium including assisting chefs to prepare meals in kitchens and serving customers while being responsible for my own cash register.
+
+<ul>
+<li><b>Initiative -</b>Shifts were often understaffed and so flexibility was required to perform different jobs for the first time, whilst picking up new skills and information quickly.</li>
+
+</ul>          
+</p>
+
+          <h3><u>
+            Bluecoats Sports Centre, Horsham 
+            September 2012 – June 2016</u>       
+          </h3>
+
+          <p>
+           <b> Football coach (volunteer):</b>Part of “Community Action” program that arranged sports and activities for those less able in the community raising my enthusiasm for corporate social responsibility.
+          </p>
+
+          <h2>Key Skills and Achievements</h2>
+          <ul>
+            <li>Baker McKenzie Virtual Law Internship (2020) – Gained experience in verbal and written correspondence between law firms as a solicitor in mock litigation proceedings.</li>
+            <li>Awarded Sir Ewart Smith grant for a single student studying Engineering at university.</li>
+            <li>Through courses attended during Engineering study, proficient in 
+              
+              <ul>
+              <li>AutoCAD</li> 
+              <li>MATLAB</li> 
+              <li>UniSim</li>
+              <li>Microsoft Office based programmes </li>
+              <li>JavaScript, HTML and CSS web design programming languages</li>
+            
+            </ul>
+              <li>Captained Sixth Form 1<sup>st</sup> XV rugby and 1<sup>st</sup> XI football teams.</li>
+            <li>2012-14 Sussex County Athlete as a Discus Thrower.</li>
+            <li>Rugby Fives 2012 National Singles Champion.</li>
+          </ul>
+
+          <h2>Personal Interests</h2>
+          <p>
+            <ul>
+              <li>Intermediate level French speaker (ERASMUS+ OLS test verified).</li>
+              <li>Former member of Environmental Engineering Society working on a project to reintroduce the Lynx (feral cat) to the British Isles</li>
+              <li> <a href="https://abdulubda.medium.com">Amateur article writer on Medium blog website</a></li>
+              <li>Chess enthusiast.</li>
+              <li>Recruitment secretary for FA Charter Standard amateur football club.</li><br>
+              <b>References available on request.</b>
+            </ul>
+          </p>
+  </div>
+
+<div id="TAB3" class="tabcontent">
+
+  <div id="TimezoneInput" class="timezone">
+
+    <form>
     
-    <h3>
-      Don't take my word for it
-    </h3>
-    <body>
-      If you have as much fun viewing these as I did completing them then we're perfect for each other
-      <ul>
-        <li><a href="https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0"> Abdul's excellent freeCodeCamp adventure </a></li>
-        <li><a href="https://www.codewars.com/users/09ahmeaa"> Abdul's battles in the Codewars </a> </li>
-        <li><a href=""> Abdul's GitHub repository </a> </li>
-      </ul>
-    </body>
+        <h3>Mirror mirror on the wall, what's the time?</h3>
+        <br> <br> 
+    
+    <input name="timezone" value="est" type="radio"> Eastern Standard Time <br>
+    <input name="timezone" value="cst" type="radio"> Central Standard Time <br>
+    <input name="timezone" value="mst" type="radio"> Mountain Standard Time <br>
+    <input name="timezone" value="pst" type="radio"> Pacific Standard Time <br>
+    <input name="timezone" value="ast" type="radio"> Alaska Standard Time <br>
+    <input name="timezone" value="hast" type="radio"> Hawaii-Aleutian Standard Time <br>
+    <input name="timezone" value="bst" type="radio"> British Standard Time <br>
+    <input name="timezone" value="abz" type="radio"> Abdul Standard Time <br>
+    
+    <button type="button" value="Submit" onclick="printSelection()"> Submit </button> 
+    
+    </form>
+    
+    <br>
+
+    <form>
+
+      <div class="view">
+  
+          <input name="view" value="digital" id="digital" type="radio" onclick="setDigital()"> Digital <br>    
+          <input name="view" value="analogue" id="analogue" type="radio" onclick="setAnalogue()" checked> Analogue <br>
+      </div>
+  
+  </form>
+
+  </div>
+  <br>
+
+  <div id="clock" class="clock">
+
+    <div class="number number1"> 1 </div> <!-- number is included in each so that they have a common identifier for css file-->
+    <div class="number number2"> 2 </div>
+    <div class="number number3"> 3 </div>
+    <div class="number number4"> 4 </div>
+    <div class="number number5"> 5 </div>
+    <div class="number number6"> 6 </div>
+    <div class="number number7"> 7 </div>
+    <div class="number number8"> 8 </div>
+    <div class="number number9"> 9 </div>
+    <div class="number number10"> 10 </div>
+    <div class="number number11"> 11 </div>
+    <div class="number number12"> 12 </div>
+
+    <div class="hour hand" data-hour-hand></div>
+    <div class="minute hand" data-minute-hand></div>
+    <div class="second hand" data-second-hand></div>
+
+</div>
+    
+<div class="digital" id="digital clock"></div>
+
+</div>
+
+<div id="TAB4" class="tabcontent">
+
+<div class="slideshow-container">
+
+  <!--Images with number and caption-->
+<div class="mySlides fade">
+<div class="numbertext">1 / 3</div>
+<img src="922437_720.jpg" style="height:500px">
+<div class="text">Caption One</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="20210304_223755.jpg" style="height:500px">
+  <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG-20201125-WA0000.jpg" style="height:500px">
+    <div class="text">Caption Three</div>
+    </div>
+<!-- Next and previous buttons-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<!--Little dots/circles that indicate which slide you are on-->
+<div style="text-align:center">
+
+<span class="dot" onclick="currentSlide(1)"></span><!--CAN I ADD TEXT NEXT TO PHOTOS WITH A LINK TO THE POP SMOKE VIDEO-->
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+
+</div>
+
+
+
+
+
+  </body>
     
 
 </html>
