@@ -24,8 +24,8 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
         currentQuestion = 
-        <a href="https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0"> Abdul's excellent freeCodeCamp adventure" </a>
-        <a href="https://www.codewars.com/users/09ahmeaa"> Abdul's battles in the Codewars"</a>
+        <a href="https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0"> Abdul's excellent freeCodeCamp adventure" </a>;
+        <a href="https://www.codewars.com/users/09ahmeaa"> Abdul's battles in the Codewars"</a>;
         <a href="https://github.com/AbdulubdA/TestWebsite"> Abdul's GitHub repository"</a>;
         }
         
