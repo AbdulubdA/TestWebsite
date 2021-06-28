@@ -62,9 +62,8 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
    
-        document.getElementById("output").innerHTML = hlink1;
-        document.getElementById("output").innerHTML = hlink2;
-        document.getElementById("output").innerHTML = hlink3;    
+        document.getElementById("output").innerHTML = hlink1 + hlink2 + hlink3;
+
         }
         
 
