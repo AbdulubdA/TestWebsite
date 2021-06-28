@@ -52,7 +52,7 @@ if(questions[i].checked == true){
     }
     
     else if(currentQuestion == "TYW"){
-        currentQuestion = document.output.appendChild(a);
+        currentQuestion = "";
         
         }
         
