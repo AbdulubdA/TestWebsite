@@ -3,7 +3,15 @@ var outputToBox = 0;
 function produceAnswer(){
 
     // Create anchor element
-
+var a = document.createElement('a');
+// Create the text node for anchor element.
+var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
+// Append the text node to anchor element.
+a.appendChild(link1);
+// Set the title.
+a.title = "Abdul's excellent freeCodeCamp adventure";
+// Set the href property.
+a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
 
 var b = document.createElement('b');
 var link2 = document.createTextNode("Abdul's battles in the Codewars");
@@ -42,15 +50,6 @@ if(questions[i].checked == true){
     else if(currentQuestion == "TYW"){
         currentQuestion = 
         // Append the anchor element to the body.
-        var a = document.createElement('a');
-// Create the text node for anchor element.
-var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
-// Append the text node to anchor element.
-a.appendChild(link1);
-// Set the title.
-a.title = "Abdul's excellent freeCodeCamp adventure";
-// Set the href property.
-a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
         document.body.appendChild(a)
         }
         
