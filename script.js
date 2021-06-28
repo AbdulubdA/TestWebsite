@@ -29,7 +29,9 @@ function produceAnswer(){
 //c.href = "https://github.com/AbdulubdA/TestWebsite";
 //document.output.appendChild(c);
 
-var str = "Abdul's excellent freeCodeCamp adventure";
+var str1 = "Abdul's excellent freeCodeCamp adventure";
+var str2 = "Abdul's battles in the Codewars";
+var str3 = "Abdul's GitHub repository";
 
 
 
@@ -55,7 +57,9 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
 
-        currentQuestion = str.link("https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0");        
+        currentQuestion = str1.link("https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0");
+        currentQuestion = str2.link("https://www.codewars.com/users/09ahmeaa");
+        currentQuestion = str3.link("https://github.com/AbdulubdA/TestWebsite");        
         }
         
     document.getElementById("output").innerHTML = currentQuestion;
