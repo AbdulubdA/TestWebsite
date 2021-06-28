@@ -6,6 +6,14 @@ function produceAnswer(){
 var a = document.createElement('a');
 // Create the text node for anchor element.
 var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
+// Append the text node to anchor element.
+output.appendChild(link1);
+// Set the title.
+a.title = "Abdul's excellent freeCodeCamp adventure";
+// Set the href property.
+a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
+// Append the anchor element to the body.
+        var blah1 = document.body.output.appendChild(a);
 
 //var b = document.createElement('b');
 //var link2 = document.createTextNode("Abdul's battles in the Codewars");
@@ -44,19 +52,7 @@ if(questions[i].checked == true){
     }
     
     else if(currentQuestion == "TYW"){
-        currentQuestion = 
-        
-// Append the text node to anchor element.
-output.appendChild(link1);
-// Set the title.
-a.title = "Abdul's excellent freeCodeCamp adventure";
-// Set the href property.
-a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
-
-        // Append the anchor element to the body.
-        document.body.output.appendChild(a);
-        
-        
+        currentQuestion = blah1;        
         }
         
     document.getElementById("output").innerHTML = currentQuestion;
