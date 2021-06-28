@@ -12,6 +12,8 @@ a.appendChild(link1);
 a.title = "Abdul's excellent freeCodeCamp adventure";
 // Set the href property.
 a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
+// Append the anchor element to the body.
+document.body.appendChild(a)
 
 var b = document.createElement('b');
 var link2 = document.createTextNode("Abdul's battles in the Codewars");
@@ -48,9 +50,8 @@ if(questions[i].checked == true){
     }
     
     else if(currentQuestion == "TYW"){
-        currentQuestion = 
-        // Append the anchor element to the body.
-        document.body.appendChild(a)
+        currentQuestion = ;
+        
         }
         
     document.getElementById("output").innerHTML = currentQuestion;
