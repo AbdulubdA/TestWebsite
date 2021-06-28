@@ -30,8 +30,11 @@ function produceAnswer(){
 //document.output.appendChild(c);
 
 var str1 = "Abdul's excellent freeCodeCamp adventure";
+var hlink1 = str1.link("https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0");
 var str2 = "Abdul's battles in the Codewars";
+var hlink2 = str2.link("https://www.codewars.com/users/09ahmeaa");
 var str3 = "Abdul's GitHub repository";
+var hlink3 = str3.link("https://github.com/AbdulubdA/TestWebsite");
 
 
 
@@ -47,19 +50,21 @@ if(questions[i].checked == true){
         currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "<br>" + 
         "Because I heard good things from an F&C alumni" + "<br>" + 
         "Because I want to ascend";
+        document.getElementById("output").innerHTML = currentQuestion;
     }
     
     else if(currentQuestion == "YAB"){
         currentQuestion = "He's meticulous and he knows French (kinda)" + "<br>" + 
         "Years competing (and winning) in sports forged commitment to excellence" + "<br>" +
         "He wants to ascend";
+        document.getElementById("output").innerHTML = currentQuestion;
     }
     
     else if(currentQuestion == "TYW"){
-
-        currentQuestion = str1.link("https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0");
-        currentQuestion = str2.link("https://www.codewars.com/users/09ahmeaa");
-        currentQuestion = str3.link("https://github.com/AbdulubdA/TestWebsite");        
+   
+        document.getElementById("output").innerHTML = hlink1;
+        document.getElementById("output").innerHTML = hlink2;
+        document.getElementById("output").innerHTML = hlink3;    
         }
         
     document.getElementById("output").innerHTML = currentQuestion;
