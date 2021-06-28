@@ -51,7 +51,7 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
         currentQuestion = // Append the anchor element to the body.
-        document.output.appendChild(a);
+        document.body.appendChild(a);
         
         }
         
