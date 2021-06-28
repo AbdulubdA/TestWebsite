@@ -2,7 +2,11 @@ var outputToBox = 0;
 
 function produceAnswer(){
 
-    
+   // Create anchor element
+var a = document.createElement('a');
+// Create the text node for anchor element.
+var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
+
 //var b = document.createElement('b');
 //var link2 = document.createTextNode("Abdul's battles in the Codewars");
 //output.appendChild(link2);
@@ -41,10 +45,7 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
         currentQuestion = 
-        // Create anchor element
-var a = document.createElement('a');
-// Create the text node for anchor element.
-var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
+        
 // Append the text node to anchor element.
 output.appendChild(link1);
 // Set the title.
