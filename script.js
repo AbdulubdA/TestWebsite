@@ -67,7 +67,7 @@ if(questions[i].checked == true){
         document.getElementById("output").innerHTML = hlink3;    
         }
         
-    document.getElementById("output").innerHTML = currentQuestion;
+
 }
 }
 
