@@ -20,14 +20,14 @@ var link2 = document.createTextNode("Abdul's battles in the Codewars");
 output.appendChild(link2);
 b.title = "Abdul's battles in the Codewars";
 b.href = "https://www.codewars.com/users/09ahmeaa";
-document.output.appendChild(b);
+//document.output.appendChild(b);
 
 var c = document.createElement('c');
 var link3 = document.createTextNode("Abdul's GitHub repository");
 output.appendChild(link3);
 c.title = "Abdul's GitHub repository";
 c.href = "https://github.com/AbdulubdA/TestWebsite";
-document.output.appendChild(c);
+//document.output.appendChild(c);
 
 
 
