@@ -50,7 +50,7 @@ if(questions[i].checked == true){
     }
     
     else if(currentQuestion == "TYW"){
-        currentQuestion = ;
+        currentQuestion = "blah";
         
         }
         
