@@ -7,7 +7,7 @@ var a = document.createElement('a');
 // Create the text node for anchor element.
 var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
 // Append the text node to anchor element.
-a.appendChild(link1);
+output.appendChild(link1);
 // Set the title.
 a.title = "Abdul's excellent freeCodeCamp adventure";
 // Set the href property.
