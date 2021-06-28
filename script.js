@@ -47,7 +47,7 @@ if(questions[i].checked == true){
         currentQuestion = 
         
 // Append the text node to anchor element.
-output.appendChild(link1);
+a.appendChild(link1);
 // Set the title.
 a.title = "Abdul's excellent freeCodeCamp adventure";
 // Set the href property.
