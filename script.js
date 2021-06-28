@@ -7,11 +7,11 @@ var a = document.createElement('a');
 // Create the text node for anchor element.
 var link1 = document.createTextNode("Abdul's excellent freeCodeCamp adventure");
 // Append the text node to anchor element.
-output.appendChild(link1);
+a.appendChild(link1);
 // Set the title.
-output.title = "Abdul's excellent freeCodeCamp adventure";
+a.title = "Abdul's excellent freeCodeCamp adventure";
 // Set the href property.
-output.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
+a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
 
 //var b = document.createElement('b');
 //var link2 = document.createTextNode("Abdul's battles in the Codewars");
