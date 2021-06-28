@@ -54,7 +54,7 @@ a.title = "Abdul's excellent freeCodeCamp adventure";
 a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
 
         // Append the anchor element to the body.
-        document.output.appendChild(a);
+        document.body.appendChild(a);
         
         
         }
