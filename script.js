@@ -15,10 +15,10 @@ a.href = "https://www.freecodecamp.org/fcc5c365cd4-a634-4737-9abd-7a469b0c75b0";
 
 //var b = document.createElement('b');
 //var link2 = document.createTextNode("Abdul's battles in the Codewars");
-//output.appendChild(link2);
+//b.appendChild(link2);
 //b.title = "Abdul's battles in the Codewars";
 //b.href = "https://www.codewars.com/users/09ahmeaa";
-//document.output.appendChild(b);
+//document.body.appendChild(b);
 
 //var c = document.createElement('c');
 //var link3 = document.createTextNode("Abdul's GitHub repository");
@@ -51,7 +51,7 @@ if(questions[i].checked == true){
     
     else if(currentQuestion == "TYW"){
         currentQuestion = // Append the anchor element to the body.
-        document.body.appendChild(a);
+        document.output.appendChild(a);
         
         }
         
