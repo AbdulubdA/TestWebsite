@@ -52,7 +52,7 @@ if(questions[i].checked == true){
     }
     
     else if(currentQuestion == "TYW"){
-        currentQuestion = document.body.prepend(a);        
+        currentQuestion = document.output.prepend(a);        
         }
         
     document.getElementById("output").innerHTML = currentQuestion;
