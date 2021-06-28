@@ -39,6 +39,12 @@ color: white;
 
 }
 
+.output link{
+
+color: blueviolet;
+
+}
+
 .tab{
 
 overflow: hidden;
@@ -356,3 +362,5 @@ font-size: 15px;
 width: 15%;
 
     }
+
+
