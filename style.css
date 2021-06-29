@@ -26,6 +26,16 @@ color: white;
 
 }
 
+.tab .darkToggle button{
+
+    background: black;
+    color: rgb(13, 172, 13);
+    font-size: 15px;
+    
+    width: 15%;
+    
+        }
+
 
 .output{
 
@@ -353,14 +363,10 @@ background-color: black;
     
     }
 
- .tab .darkToggle button{
+.PStatement{
 
-background: black;
-color: rgb(13, 172, 13);
-font-size: 15px;
+color: cadetblue;
 
-width: 15%;
-
-    }
+}
 
 
