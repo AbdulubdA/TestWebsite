@@ -20,13 +20,9 @@ if(questions[i].checked == true){
     currentQuestion = questions[i].value;
 
     if(currentQuestion == "YFC"){
-        currentQuestion = 
-        <ul>
-            <li>"Because I like doing hard things and coding is allegedly hard" </li>
-            <li>"Because I heard good things from an FC alumni" </li>
-            <li>"Because I want to ascend"</li>;
-        </ul>
-        
+        currentQuestion = "Because I like doing hard things and coding is allegedly hard" + "<br>" + 
+        "Because I heard good things from an F&C alumni" + "<br>" + 
+        "Because I want to ascend";
         document.getElementById("output").innerHTML = currentQuestion;
     }
     
