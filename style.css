@@ -365,7 +365,9 @@ background-color: black;
 
 .PStatement{
 
-color: cadetblue;
+border: solid 5px ivory;
+width: 60%;
+left: 0%;
 
 }
 
