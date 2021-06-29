@@ -404,7 +404,7 @@ top: 120%;
 .EmpHis{
 
     border: solid 5px ivory;
-    position: relative;
+    position: absolute;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
@@ -416,11 +416,11 @@ top: 160%;
 .KeySkills{
 
     border: solid 5px ivory;
-    position: relative;
+    position: absolute;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-top: 50%;
+top: 210%;
 left: 0;
 
 
