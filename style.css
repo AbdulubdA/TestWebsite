@@ -420,7 +420,7 @@ top: 160%;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-top: 190%;
+top: 185%;
 left: 0;
 
 
@@ -429,12 +429,12 @@ left: 0;
 .PersInt{
 
     border: solid 5px ivory;
-    position: relative;
+    position: absolute;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
 right: 0;
-top: 0%;
+top: 210%;
 right: 0;
 
 }
