@@ -443,6 +443,7 @@ left: 2%;
 
 hr .hr1{
 
+    position: relative;
     display: block;
     border-top: solid ivory 5px;
 
