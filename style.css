@@ -40,8 +40,8 @@ color: white;
 .output{
 
     position: absolute;
-    top: 20%;
-    right: 20%;
+    top: 15%;
+    right: 25%;
 
     display: flex;
     align-items: center;
@@ -374,8 +374,8 @@ position: absolute;
 padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-top: 15%;
-right: 0;
+top: 25%;
+right: 2%;
 
 }
 
@@ -387,8 +387,8 @@ right: 0;
     padding-left: 5px;
     padding-right: 5px;
     width: 60%;
-    top: 50%;
-    left: 0;
+    top: 80%;
+    left: 2%;
 
 }
 
@@ -399,8 +399,8 @@ right: 0;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-right: 0;
-top: 120%;
+right: 2%;
+top: 175%;
 
 }
 
@@ -411,8 +411,8 @@ top: 120%;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-left: 0;
-top: 190%;
+left: 2%;
+top: 285%;
 
 }
 
@@ -423,8 +423,8 @@ top: 190%;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-top: 320%;
-right: 0;
+top: 505%;
+right: 2%;
 
 
 }
@@ -437,8 +437,16 @@ right: 0;
 padding-right: 5px;
 width: 60%;
 right: 0;
-top: 370%;
-left: 0;
+top: 575%;
+left: 2%;
+
+}
+
+hr{
+
+display: block;
+border-style: inset;
+border-width: 1px;
 
 }
 
