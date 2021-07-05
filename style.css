@@ -444,8 +444,16 @@ left: 2%;
 .pocock{
 
 position: absolute;
-top: 0;
-left: 0;
+top: 20%;
+left: 5%;
+
+}
+
+.yaya{
+
+    position: absolute;
+    top: 25%;
+    left: 5%;
 
 }
 
