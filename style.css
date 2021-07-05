@@ -441,10 +441,11 @@ left: 2%;
 
 }
 
-hr.1{
+hr .hr1{
 
     position: absolute;
-    top: 22%
+    top: 22%;
+    border: solid ivory 2px;
 
 }
 
