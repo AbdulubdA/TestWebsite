@@ -443,6 +443,29 @@ left: 2%;
 
 hr .hr1{
 
+    display: block;
+    border-top: solid ivory 5px;
+
+
+}
+
+hr .hr2{
+
+    display: block;
+    border-top: solid ivory 5px;
+
+}
+
+hr .hr3{
+
+    display: block;
+    border-top: solid ivory 5px;
+
+}
+
+hr .hr4{
+
+    display: block;
     border-top: solid ivory 5px;
 
 }
