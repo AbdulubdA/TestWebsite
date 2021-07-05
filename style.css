@@ -95,7 +95,6 @@ background-color: rgb(13, 172, 13)sl;
 
 display: none;
 padding: 10px 10px;
-border: 1px solid white;
 
 }
 
@@ -408,8 +407,8 @@ top: 120%;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-right: 0;
-top: 160%;
+left: 0;
+top: 190%;
 
 }
 
@@ -420,8 +419,8 @@ top: 160%;
     padding-left: 5px;
 padding-right: 5px;
 width: 60%;
-top: 185%;
-left: 0;
+top: 320%;
+right: 0;
 
 
 }
@@ -434,8 +433,8 @@ left: 0;
 padding-right: 5px;
 width: 60%;
 right: 0;
-top: 210%;
-right: 0;
+top: 370%;
+left: 0;
 
 }
 
