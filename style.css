@@ -368,7 +368,7 @@ background-color: black;
 
 .PStatement{
 
-border: solid 5px ivory;
+
 
 position: absolute;
 padding-left: 5px;
@@ -381,7 +381,7 @@ right: 2%;
 
 .Qual{
 
-    border: solid 5px ivory;
+
 
     position: absolute;
     padding-left: 5px;
@@ -394,7 +394,7 @@ right: 2%;
 
 .UniProj {
 
-    border: solid 5px ivory;
+
     position: absolute;
     padding-left: 5px;
 padding-right: 5px;
@@ -406,7 +406,7 @@ top: 175%;
 
 .EmpHis{
 
-    border: solid 5px ivory;
+
     position: absolute;
     padding-left: 5px;
 padding-right: 5px;
@@ -418,7 +418,6 @@ top: 285%;
 
 .KeySkills{
 
-    border: solid 5px ivory;
     position: absolute;
     padding-left: 5px;
 padding-right: 5px;
@@ -431,7 +430,7 @@ right: 2%;
 
 .PersInt{
 
-    border: solid 5px ivory;
+
     position: absolute;
     padding-left: 5px;
 padding-right: 5px;
@@ -444,9 +443,7 @@ left: 2%;
 
 hr{
 
-display: block;
-border-style: inset;
-border-width: 1px;
+border: solid ivory 5px;
 
 }
 
