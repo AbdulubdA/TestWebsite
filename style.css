@@ -452,8 +452,31 @@ left: 5%;
 .yaya{
 
     position: absolute;
-    top: 23%;
+    top: 25%;
     left: 25%;
 
 }
 
+.ch{
+
+    position: absolute;
+    top: 60%;
+    left: 77%;
+
+}
+
+.utc{
+
+    position: absolute;
+    top: 60%;
+    left: 75%;
+
+}
+
+.lboro{
+
+    position: absolute;
+    top: 60%;
+    left: 75%;
+
+}
