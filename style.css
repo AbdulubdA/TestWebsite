@@ -460,7 +460,7 @@ left: 5%;
 .ch{
 
     position: absolute;
-    top: 60%;
+    top: 110%;
     left: 20%;
 
 }
@@ -468,15 +468,15 @@ left: 5%;
 .utc{
 
     position: absolute;
-    top: 60%;
-    left: 75%;
+    top: 110%;
+    left: 50%;
 
 }
 
 .lboro{
 
     position: absolute;
-    top: 60%;
+    top: 110%;
     left: 50%;
 
 }
