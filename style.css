@@ -579,7 +579,7 @@ left: 5%;
 .pidpic{
 
     position: absolute;
-    top: 498%;
+    top: 496%;
     left: 2%;
 
     width: 33%;
@@ -591,13 +591,22 @@ left: 5%;
 .htmlpic{
 
     position: absolute;
-    top: 533%;
+    top: 534%;
     left: 5%;
 
     width: 33%;
 
 }
 
+.oldtest{
+
+    position: absolute;
+    top: 545%;
+    right: 5%;
+
+    width: 33%;
+
+}
 
 
 
