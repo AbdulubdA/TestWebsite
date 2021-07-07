@@ -560,6 +560,36 @@ left: 5%;
 
 }
 
+.pidpic{
+
+    position: absolute;
+    top: 460%;
+    left: 5%;
+
+    width: 33%;
+
+}
+
+.unisimpic{
+
+    position: absolute;
+    top: 480%;
+    left: 20%;
+
+    width: 33%;
+
+}
+
+.htmlpic{
+
+    position: absolute;
+    top: 495%;
+    left: 5%;
+
+    width: 33%;
+
+}
+
 
 
 
