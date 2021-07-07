@@ -481,34 +481,33 @@ left: 5%;
 
 }
 
-.indgraph{
+.concprof{
 
     position: absolute;
-    top: 180%;
-    left: 5%;
+    top: 175%;
+    left: 2%;
 
+    width: 35%;
 }
 
-.pdpexp{
-
-    position: absolute;
-    top: 190%;
-    left: 5%;
-
-}
-
-.indpid{
-
-    position: absolute;
-    top: 200%;
-    left: 5%;
-
-}
-
-.ind{
+.indtitle{
 
     position: absolute;
     top: 210%;
-    left: 5%;
+    left: 2%;
+
+    width: 35%;
 
 }
+
+.breakthru{
+
+    position: absolute;
+    top: 245%;
+    left: 2%;
+
+    width: 35%;
+
+}
+
+
