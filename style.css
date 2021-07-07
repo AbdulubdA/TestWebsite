@@ -481,19 +481,29 @@ left: 5%;
 
 }
 
-.concprof{
+/*.concprof{
 
     position: absolute;
     top: 175%;
     left: 2%;
 
     width: 33%;
+}*/
+
+.fydfrontpage{
+
+    position: absolute;
+    top: 175%;
+    left: 2%;
+
+    width: 33%;
+
 }
 
 .indtitle{
 
     position: absolute;
-    top: 210%;
+    top: 208%;
     left: 2%;
 
     width: 33%;
@@ -503,18 +513,18 @@ left: 5%;
 .breakthru{
 
     position: absolute;
-    top: 230%;
+    top: 235%;
     left: 2%;
 
     width: 33%;
 
 }
 
-.fydfrontpage{
+.unisimpic{
 
     position: absolute;
-    top: 260%;
-    left: 2%;
+    top: 250%;
+    left: 20%;
 
     width: 33%;
 
@@ -563,27 +573,19 @@ left: 5%;
 .pidpic{
 
     position: absolute;
-    top: 500%;
-    left: 5%;
+    top: 495%;
+    left: 2%;
 
     width: 33%;
 
 }
 
-.unisimpic{
 
-    position: absolute;
-    top: 480%;
-    left: 20%;
-
-    width: 33%;
-
-}
 
 .htmlpic{
 
     position: absolute;
-    top: 550%;
+    top: 5350;
     left: 5%;
 
     width: 33%;
