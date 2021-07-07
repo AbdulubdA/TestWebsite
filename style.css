@@ -503,8 +503,68 @@ left: 5%;
 .breakthru{
 
     position: absolute;
-    top: 245%;
+    top: 240%;
     left: 2%;
+
+    width: 35%;
+
+}
+
+.fydfrontpage{
+
+    position: absolute;
+    top: 255%;
+    left: 90%;
+
+    width: 35%;
+
+}
+
+.pdpexp2{
+
+    position: absolute;
+    top: 265%;
+    left: 90%;
+
+    width: 35%;
+
+}
+
+.pdpexp{
+
+    position: absolute;
+    top: 280%;
+    left: 90%;
+
+    width: 35%;
+
+}
+
+.permvspress{
+
+    position: absolute;
+    top: 295%;
+    left: 90%;
+
+    width: 35%;
+
+}
+
+.permvstime{
+
+    position: absolute;
+    top: 310%;
+    left: 90%;
+
+    width: 35%;
+
+}
+
+.pdpexpdiag{
+
+    position: absolute;
+    top: 325%;
+    left: 90%;
 
     width: 35%;
 
