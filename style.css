@@ -463,6 +463,8 @@ left: 5%;
     top: 80%;
     left: 63%;
 
+    width: 20%;
+
 }
 
 .utc{
@@ -471,6 +473,8 @@ left: 5%;
     top: 135%;
     left: 50%;
 
+    width: 20%;
+
 }
 
 .lboro{
@@ -478,6 +482,8 @@ left: 5%;
     position: absolute;
     top: 95%;
     left: 85%;
+
+    width: 20%;
 
 }
 
@@ -523,7 +529,7 @@ left: 5%;
 .unisimpic{
 
     position: absolute;
-    top: 255%;
+    top: 250%;
     left: 2%;
 
     width: 33%;
@@ -573,7 +579,7 @@ left: 5%;
 .pidpic{
 
     position: absolute;
-    top: 498%;
+    top: 495%;
     left: 2%;
 
     width: 33%;
