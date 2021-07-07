@@ -503,7 +503,7 @@ left: 5%;
 .indtitle{
 
     position: absolute;
-    top: 208%;
+    top: 200%;
     left: 2%;
 
     width: 33%;
@@ -513,7 +513,7 @@ left: 5%;
 .breakthru{
 
     position: absolute;
-    top: 235%;
+    top: 220%;
     left: 2%;
 
     width: 33%;
@@ -523,8 +523,8 @@ left: 5%;
 .unisimpic{
 
     position: absolute;
-    top: 250%;
-    left: 20%;
+    top: 255%;
+    left: 2%;
 
     width: 33%;
 
@@ -573,7 +573,7 @@ left: 5%;
 .pidpic{
 
     position: absolute;
-    top: 495%;
+    top: 498%;
     left: 2%;
 
     width: 33%;
@@ -585,7 +585,7 @@ left: 5%;
 .htmlpic{
 
     position: absolute;
-    top: 535%;
+    top: 528%;
     left: 5%;
 
     width: 33%;
