@@ -601,10 +601,20 @@ left: 5%;
 .olstest{
 
     position: absolute;
+    top: 565%;
+    right: 8%;
+
+    width: 28%;
+
+}
+
+.oldblues{
+
+    position: absolute;
     top: 568%;
     right: 5%;
 
-    width: 28%;
+    width: 12%;
 
 }
 
