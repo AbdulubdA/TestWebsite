@@ -481,10 +481,34 @@ left: 5%;
 
 }
 
-.ind graph{
+.indgraph{
 
     position: absolute;
-    top: 95%;
-    left: 85%;
+    top: 180%;
+    left: 5%;
+
+}
+
+.pdpexp{
+
+    position: absolute;
+    top: 190%;
+    left: 5%;
+
+}
+
+.indpid{
+
+    position: absolute;
+    top: 200%;
+    left: 5%;
+
+}
+
+.ind{
+
+    position: absolute;
+    top: 210%;
+    left: 5%;
 
 }
