@@ -360,9 +360,9 @@ background-color: black;
 
     @keyframes blinkingText{
         0%{     color: red;    }
-        49%{    color: orange; }
-        60%{    color: green; }
-        99%{    color:blue;  }
+        25%{    color: orange; }
+        50%{    color: green; }
+        75%{    color:blue;  }
         100%{   color: purple;    }
     }
 
