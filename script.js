@@ -169,7 +169,9 @@ function setRotation(element, rotationRatio){
 
         var currentTime = hours + ":" + minutes + ":" + seconds + " " + session;
 
-        if(offset === "PRIMETIME"){currentTime = offset;}
+        if(offset === "PRIMETIME"){currentTime = offset;
+            document.getElementById("blinking").innerHTML = currentTime;
+        }
         
         setTimeout(printClock, 1000);
         
