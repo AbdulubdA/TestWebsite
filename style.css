@@ -353,13 +353,9 @@ background-color: black;
         margin-left: 20px;
     
         font-size: 90px;
+
+        animation: blinkingText 1.2s infinite;
     
-    }
-
-    .blinking{
-
-        animation:blinkingText 1.2s infinite;
-
     }
 
     @keyframes blinkingText{
