@@ -354,16 +354,16 @@ background-color: black;
     
         font-size: 90px;
 
-        animation: blinkingText 1.2s infinite;
+        animation: blinkingText 0.9s infinite;
     
     }
 
     @keyframes blinkingText{
-        0%{     color: #000;    }
-        49%{    color: #000; }
-        60%{    color: transparent; }
-        99%{    color:transparent;  }
-        100%{   color: #000;    }
+        0%{     color: red;    }
+        49%{    color: orange; }
+        60%{    color: green; }
+        99%{    color:blue;  }
+        100%{   color: purple;    }
     }
 
     .view{
