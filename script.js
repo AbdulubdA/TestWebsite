@@ -100,15 +100,15 @@ slides[slideIndex-1].style.display = "block";
 function toggleDark(){
 
 var element = document.body;
-if(element.classList !== "dark-mode"){
-element.classList.toggle("dark-mode")};
+
+element.classList.toggle("dark-mode");
 
 }
 
 function toggleCandy() {
     var element = document.body;
-    if(element.classList !== "candy-mode"){
-    element.classList.toggle("candy-mode")};
+ 
+    element.classList.toggle("candy-mode");
   }
 
 var offset = 0;
