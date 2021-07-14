@@ -32,6 +32,19 @@ color: white;
 
 }
 
+.candy-mode .clock{
+
+    background-color: rgba(201, 104, 214, 0.425);
+    border: 10px solid hsla(216, 72%, 48%, 0.842);
+    
+        }
+
+.candy-mode .clock .number{
+
+            color: white;
+            
+            }
+            
 
 .tab .darkToggle button{
 
