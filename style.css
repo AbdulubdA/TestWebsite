@@ -45,8 +45,8 @@ color: white;
 
 .tab .candyToggle button{
 
-    background: rgba(201, 104, 214, 0.425);
-    color: hsla(216, 72%, 48%, 0.842);
+    background: hsla(216, 72%, 48%, 0.842);
+    color: rgba(201, 104, 214, 0.425);
     font-size: 15px;
             
     width: 15%;
