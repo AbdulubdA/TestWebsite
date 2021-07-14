@@ -136,7 +136,10 @@ border: solid white;
 .mySlides{
 
     display: none;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
 }
 
 /* next and previous buttons*/
