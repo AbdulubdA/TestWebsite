@@ -34,14 +34,14 @@ color: white;
 
 .candy-mode .clock{
 
-    background-color: rgba(201, 104, 214, 0.425);
+    background-color: hsla(216, 72%, 48%, 0.842);
     border: 10px solid white;
     
         }
 
 .candy-mode .clock .number{
 
-            color: hsla(216, 72%, 48%, 0.842);
+            color: rgba(201, 104, 214, 0.425);
             
             }
             
