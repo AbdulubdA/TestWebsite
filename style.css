@@ -160,7 +160,7 @@ user-select: none;
 /*next button goes on the right*/
 .next{
 
-right: 0;
+right: 5%;
 border-radius: 3px 0 0 3px;
 
 }
@@ -168,7 +168,7 @@ border-radius: 3px 0 0 3px;
 /*prev button goes on the left*/
 .prev{
 
-    left: 0;
+    left: 5%;
     border-radius: 3px 0 0 3px;
     
     }
@@ -205,8 +205,8 @@ font-size: 30px;
 padding: 8px 12px;
 position: absolute;
 text-align: center;
-top: 0;
-right: 0;
+top: 15%;
+right: 5%;
 border: solid gold;
 background: gold;
 
