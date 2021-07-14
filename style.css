@@ -27,8 +27,8 @@ color: white;
 
 .candy-mode{
 
-    color: hsla(216, 72%, 48%, 0.842);
-    background: rgba(201, 104, 214, 0.425);
+    color: rgba(201, 104, 214, 0.425);
+    background: hsla(216, 72%, 48%, 0.842);
 
 }
 
