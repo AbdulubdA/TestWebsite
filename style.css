@@ -27,8 +27,8 @@ color: white;
 
 .candy-mode{
 
-    color: rgba(201, 104, 214, 0.425);
-    background: hsla(216, 72%, 48%, 0.842);
+    color: hsla(216, 72%, 48%, 0.842);
+    background: rgba(201, 104, 214, 0.425);
 
 }
 
@@ -45,8 +45,8 @@ color: white;
 
 .tab .candyToggle button{
 
-    background: hsla(216, 72%, 48%, 0.842);
-    color: rgba(201, 104, 214, 0.425);
+    background: rgba(201, 104, 214, 0.425);
+    color: hsla(216, 72%, 48%, 0.842);
     font-size: 15px;
             
     width: 15%;
