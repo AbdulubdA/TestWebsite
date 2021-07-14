@@ -43,15 +43,17 @@ color: white;
     
         }
 
-    .tab .candyToggle button{
+.tab .candyToggle button{
 
-            background: rgba(201, 104, 214, 0.425);
-            color: hsla(216, 72%, 48%, 0.842);
-            font-size: 15px;
+    background: rgba(201, 104, 214, 0.425);
+    color: hsla(216, 72%, 48%, 0.842);
+    font-size: 15px;
             
-            width: 15%;
+    width: 15%;
             
-                }
+        }
+
+    
 
 
 .output{
