@@ -104,6 +104,11 @@ element.classList.toggle("dark-mode");
 
 }
 
+function toggleCandy() {
+    var element = document.body;
+    element.classList.toggle("candy-mode");
+  }
+
 var offset = 0;
 
 setInterval(printClock, 1000);

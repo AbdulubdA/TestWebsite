@@ -23,8 +23,15 @@ border: 10px solid rgb(13, 172, 13);
 
 color: white;
 
+}
+
+.candy-mode{
+
+    color: hsla(216, 72%, 48%, 0.842);
+    background: rgba(201, 104, 214, 0.425);
 
 }
+
 
 .tab .darkToggle button{
 
@@ -35,6 +42,16 @@ color: white;
     width: 15%;
     
         }
+
+    .tab .candyToggle button{
+
+            background: rgba(201, 104, 214, 0.425);
+            color: hsla(216, 72%, 48%, 0.842);
+            font-size: 15px;
+            
+            width: 15%;
+            
+                }
 
 
 .output{
