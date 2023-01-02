@@ -162,7 +162,7 @@ function setRotation(element, rotationRatio){
  /* digital clock stuff below*/
 
         var dateVariable = new Date();
-        var hours = Math.abs(dateVariable.getHours() + offset);
+        var hours = dateVariable.getHours() + offset;
         var minutes = dateVariable.getMinutes();
         var seconds = dateVariable.getSeconds();
         var session = "AM";
