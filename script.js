@@ -127,12 +127,12 @@ secondVariable = firstVariable[i].value;
 }
 }
 
-if(secondVariable === "est"){offset = -5;}
-else if(secondVariable === "cst"){offset = -6;}
-else if(secondVariable === "mst"){offset = -7;}
-else if(secondVariable === "pst"){offset = -8;}
-else if(secondVariable === "ast"){offset = -4;}
-else if(secondVariable === "hast"){offset = -11;}
+if(secondVariable === "est"){offset = (12-5);}
+else if(secondVariable === "cst"){offset = (12-6);}
+else if(secondVariable === "mst"){offset = (12-7);}
+else if(secondVariable === "pst"){offset = (12-8);}
+else if(secondVariable === "ast"){offset = (12-4);}
+else if(secondVariable === "hast"){offset = (12-11);}
 else if(secondVariable === "bst"){offset = 0;}
 else if(secondVariable === "abz"){offset = "PRIMETIME";}
 
@@ -162,15 +162,15 @@ function setRotation(element, rotationRatio){
  /* digital clock stuff below*/
 
         var dateVariable = new Date();
-        var hours = dateVariable.getHours() + offset;
+        var hours = Math.abs(dateVariable.getHours() + offset);
         var minutes = dateVariable.getMinutes();
         var seconds = dateVariable.getSeconds();
         var session = "AM";
         
-        if(hours >= 12){session = "PM";}
-        else{session = "AM";}
+        if(hours >= 12){session = "AM";}
+        else{session = "PM";}
         
-        if(hours < 10){hours = "0" + Math.abs(hours);}
+        if(hours < 10){hours = "0" + hours;}
         if(minutes < 10){minutes = "0" + minutes;}
         if(seconds < 10){seconds = "0" + seconds;}
 
