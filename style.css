@@ -4,6 +4,7 @@ body{
     font-size: 20px;
     background: rgb(13, 172, 13);
     color: ivory;
+    display: flex;
 }
 
 .dark-mode{
@@ -670,4 +671,9 @@ left: 5%;
 }
 
 
+.chessboard{
 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
