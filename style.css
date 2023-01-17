@@ -67,15 +67,7 @@ color: white;
             
         }
 
-/*.tab .chessboard button{
-
-    background: black;
-    color: white;
-    font-size: 15px;
-            
-    width: 15%;
-            
-        }*/
+    
 
 
 .output{
@@ -679,12 +671,4 @@ left: 5%;
 }
 
 
-.chessboard{
 
-    display: flex;
-    flex-wrap: wrap;
-
-    height: 400px;
-    width: 400px;
-    border: 10px solid black;
-}
