@@ -678,13 +678,3 @@ left: 5%;
 
 }
 
-
-.chessboard{
-
-    display: flex;
-    flex-wrap: wrap;
-
-    height: 400px;
-    width: 400px;
-    border: 10px solid black;
-}
